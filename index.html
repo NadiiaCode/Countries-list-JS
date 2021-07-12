@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Country+State+District-City-Data.js"></script>
+
+</head>
+
+<body>
+    <form name="myform" id="myForm">
+        <!--Country -->
+        <div class="select-something">
+            Country:
+            <select name="state" id="countySel" size="1">
+    <option  value="" selected="selected">Please select Country</option>
+</select>
+        </div>
+        <!--State -->
+        <div class="select-something">
+            State: <select name="countrya" id="stateSel" size="1">
+    <option value="" selected="selected">Please select state</option>
+</select>
+        </div>
+        <!--State -->
+        <div class="select-something">
+            District/City: <select name="district" id="districtSel" size="1">
+    <option value="" selected="selected">Please select district/city</option>
+</select>
+        </div>
+        <input class="submited" type="submit">
+    </form>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 25px;
+            font-weight: bold;
+            background-color: #f8edf8;
+        }
+        
+        .select-something {
+            margin: 50px;
+        }
+        
+        .submited {
+            margin-left: 50px;
+            padding: 15px;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            letter-spacing: 2px;
+            background-color: #000000;
+            color: #ffffff;
+        }
+    </style>
+</body>
+
+</html>
